@@ -1,0 +1,709 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Joeri van Oostveen <joeri@axis.fm>\n"
+"Language-Team: none\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "\"{{FILE}}\" is een leeg bestand."
+msgstr "\"{{FILE}}\" ist ein leerer Bestand."
+
+msgid "(Gastenboek is nog in ontwikkeling)"
+msgstr "(Das G‰stebuch ist noch in der Entwicklungsphase)"
+
+msgid "(geen albums toegewezen)"
+msgstr "(keine alben zugewiesen)"
+
+msgid "(niet zichtbaar)"
+msgstr "(nicht sichtbar)"
+
+msgid "(niets invullen is achteraan)"
+msgstr ""
+
+msgid "Afbeelding bijsnijden"
+msgstr "Abbildung ausschneiden"
+
+msgid "Album"
+msgstr "Album"
+
+#, php-format
+msgid "Alleen bestanden met extensie %s zijn toegestaan. \"{{FILE}}\" zal niet worden geupload."
+msgstr "Bitte gebrauchen Sie nur Dateien mit der Endung %s. \"{{FILE}}\" wird nicht geladen."
+
+msgid "Alternatieve mobile site"
+msgstr "Alternative mobile Seite"
+
+msgid "Alternatieve tablet site"
+msgstr "Alternative Tablet Seite"
+
+msgid "Attentie vereist"
+msgstr ""
+
+#, php-format
+msgid "Bestand bevat %d kanalen, terwijl er 3 vereist zijn."
+msgstr "Die Datei enth‰lt %d Kan‰le, es sind jedoch 3 erforderlich."
+
+msgid "Bestand bevat 1 kanaal, terwijl er 3 vereist zijn."
+msgstr "Die Datei enth‰lt 1 Kanal, es sind jedoch 3 erforderlich."
+
+msgid "Bestand is opgeslagen als CMYK en kan niet verwerkt worden, bewaar het bestand als RGB."
+msgstr "Datei ist gespeichert als CMYK und kann nicht verarbeitet werden, bitte speichern Sie den Bestand als RGB."
+
+#, php-format
+msgid "Bestandextensie `.%1$s` komt niet overeen met verwachte extensie `%2$s`."
+msgstr "Dateiendung `.%1$s` stimmt nicht ¸berein mit Dateiendung `%2$s`."
+
+msgid "Bezig met uploaden..."
+msgstr "Besch‰ftigt mit importieren aus der FTP Mappe."
+
+msgid "Contact"
+msgstr "Kontakt"
+
+#, php-format
+msgid "De %s directory is niet schrijfbaar."
+msgstr "Das %s Verzeichniss kann nicht bearbeitet werden."
+
+#, php-format
+msgid "De directory `%s` is niet schrijfbaar."
+msgstr "Das Verzeichniss %s kann nicht bearbeitet werden."
+
+msgid "De gebruikte afbeelding is te groot, pas deze aan en upload opnieuw."
+msgstr "Die Abbildung ist zu gross, bitte passen Sie diese an, und probieren Sie es erneut."
+
+#, php-format
+msgid "Deze update vereist een extra tabel met referentie `%1$s` in `%2$s`. Update website na aanpassing nogmaals."
+msgstr "Dieses Update hat eine Tabelle mit Referenz `%1$s` in `%2$s` nˆtig. Updaten Sie die Webseite danach nochmals."
+
+#, php-format
+msgid "Deze update vereist een nieuwe directory `%1$s` in de `%2$s` directory met %3$s-rechten."
+msgstr "Diese Update hat ein neues Verzeichniss `%1$s` im `%2$s` Verzeichniss mit %3$s-Rechten nˆtig."
+
+msgid "Duits"
+msgstr "Deutsch"
+
+#, php-format
+msgid "Een `tmp` directory is nodig in `%s`."
+msgstr "Ein `tmp` Verzeichniss ist nˆtig in `%s`."
+
+msgid "Engels"
+msgstr "Englisch"
+
+#, php-format
+msgid "Er dient een nieuwe koppeling gemaakt te worden in %1$s voor `%2$s`."
+msgstr "Es ist ein neuer Link in %1$s f¸r `%2$s` nˆtig."
+
+msgid "Er is een fout opgetreden"
+msgstr "Es ist ein Fehler aufgetreten."
+
+msgid "Er is een fout opgetreden."
+msgstr "Es ist ein Fehler aufgetreten."
+
+msgid "Er zijn geen albums toegekend aan dit account. Neem contact op met de site beheerder voor meer informatie."
+msgstr "Fuer diesen Account bestehen keine Alben. Bitte nehmen Sie Kontakt auf mit dem Administrator."
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Facebook Platform application ID"
+msgstr "Facebook Platform Applikations ID"
+
+msgid "Facebook user IDs"
+msgstr "Facebook Gebraucher IDs"
+
+msgid "Frans"
+msgstr "Franzoesisch."
+
+msgid "Gastenboek"
+msgstr "Gaestebuch"
+
+msgid "Gebruikers beheer"
+msgstr "Benutzer Verwaltung"
+
+msgid "Geef de link op van album, sectie en item\\n(bv: 1,2,3 of album/section/item)"
+msgstr "Bitte geben Sie einen Link fuer ein Album, eine Sektion, oder ein Item\\n(z.B.: 1,2,3 von Album/Sektion/Item)"
+
+msgid "Geef hier aan tot welke albums de gebruiker toegang heeft."
+msgstr "Bitte geben Sie an zu welchen Alben der Benutzer Zugang hat."
+
+#, php-format
+msgid "Geselecteerd bestand \"{{FILE}}\" is te groot, maximale bestandsgrootte is %sB."
+msgstr "Datei \"{{FILE}}\" ist zu gross, maximale Dateigroesse ist %sB."
+
+msgid "Google Analytics account"
+msgstr "Google Analytics Benutzerkonto."
+
+msgid "Google site verificatie"
+msgstr "Google Site Verifikation"
+
+msgid "HTML site"
+msgstr "HTML Seite"
+
+msgid "Importeren"
+msgstr "Importieren"
+
+msgid "Javascript en Flash Player 8 vereist..."
+msgstr "Javascript und Flash Player 8 sind Vorraussetzung ..."
+
+msgid "Javascript is vereist om te kunnen inloggen..."
+msgstr "Javascript muss aktiviert sein um sich anzumelden ..."
+
+msgid "Macromedia Flash Player 8 of hoger vereist..."
+msgstr "Macromedia Flash Player 8 oder eine hoehere Version ist Vorraussetzung ..."
+
+msgid "Nederlands"
+msgstr "Niederländisch"
+
+msgid "Nieuws"
+msgstr "News"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Player"
+msgstr "Player"
+
+msgid "RSS"
+msgstr "RSS"
+
+msgid "Search engines"
+msgstr "Suchmaschine"
+
+msgid "Secties"
+msgstr "Sektionen"
+
+msgid "Selecteer bestanden"
+msgstr "Datei auswaehlen"
+
+msgid "Tekst"
+msgstr "Text"
+
+#, php-format
+msgid "U kunt voor %s alleen bestanden met de extensie %s uploaden.\\nAndere bestanden zullen worden genegeerd."
+msgstr "Sie koennen fuer %s nur Dateien mit der Endung %s laden.\\nAndere Dateien werden ignoriert."
+
+msgid "Upload gereed"
+msgstr "Fertig mit Laden"
+
+msgid "Voer uw login en wachtwoord in om toegang te krijgen tot het systeem."
+msgstr "Geben Sie ihren Benutzernamen und das Passwort um Zugang zum System zu erlhalten."
+
+msgid "Wat is de tekst die u wilt tonen als link?"
+msgstr "Welchen Text wollen Sie als Link gebrauchen?"
+
+msgid "Wat is de tekst die u wilt tonen in plaats de waarde? (optioneel)"
+msgstr "Welchen Text wollen Sie anstelle des Links gebrauchen? (Optionell)"
+
+msgid "Wat is de tekst die u wilt tonen in plaats van het adres (optioneel)"
+msgstr "Welchen Text wollen Sie anstelle der Adresse gebrauchen? (Optionell)"
+
+msgid "Wat is de tekst die u wilt tonen in plaats van het e-mailadres (optioneel)"
+msgstr "Welchen Text wollen Sie anstelle der Email-Adresse gebrauchen? (Optionell)"
+
+msgid "Wat is de waarde?"
+msgstr "Was ist der Link?"
+
+msgid "Wat is het adres van de link?\\n(inclusief http:// of ander protocol)"
+msgstr "Was ist die Addresse des Links?\\n(inklusive http:// oder einem anderen Protokoll)"
+
+msgid "Wat is het e-mailadres?"
+msgstr "Was ist die Email-Adresse?"
+
+msgid "Weet u zeker dat u deze gebruiker wilt verwijderen?"
+msgstr "Sind Sie sicher das Sie den Benutzer loeschen moechten?"
+
+msgid "Weet u zeker dat u deze sectie en alle onderliggende items wilt verwijderen?"
+msgstr "Sind Sie sicher das Sie die Sektion und alle dazugehoerigen Items loeschen moechten?"
+
+msgid "Weet u zeker dat u dit album en alle onderliggende secties en items wilt verwijderen?"
+msgstr "Sind Sie sicher das Sie das Album und alle dazugehoerigen Sektionen und Items loeschen moechten?"
+
+msgid "Weet u zeker dat u dit album wilt verwijderen?"
+msgstr "Sind Sie sicher das Sie das Album loeschen moechten?"
+
+msgid "Weet u zeker dat u dit bericht wilt verwijderen?"
+msgstr "Sind Sie sicher das Sie den Bericht loeschen moechten?"
+
+msgid "Weet u zeker dat u dit bestand wilt verwijderen?"
+msgstr "Sind Sie sicher das Sie die Datei loeschen moechten?"
+
+msgid "Weet u zeker dat u dit item wilt verwijderen?"
+msgstr "Sind Sie sicher das Sie das Item loeschen moechten?"
+
+msgid "Welke tekst moet schuin worden?"
+msgstr "Welcher Text soll Italic sein?"
+
+#, php-format
+msgid "Welke tekst moet tussen [%s] en [/%s] komen te staan"
+msgstr "Welcher Text muss zwischen [%s] und [/%s] stehen?"
+
+msgid "Welke tekst moet vetgedrukt worden?"
+msgstr "Welcher Text muss fettgedruckt werden?"
+
+msgid "XML"
+msgstr "XML"
+
+msgid "XML & AMFPHP voorkeuren"
+msgstr "XML & AMFPHP Voreinstellungen"
+
+msgid "XML / AMFPHP hybride"
+msgstr "XML / AMFPHP Hybride"
+
+#, fuzzy
+msgid "Yourportfolio bijgewerkt"
+msgstr "Yourportfolio ist aktualisiert nach Version %s."
+
+#, php-format
+msgid "Yourportfolio is bijgewerkt naar versie %s."
+msgstr "Yourportfolio ist aktualisiert nach Version %s."
+
+#, php-format
+msgid "`%1$s` in `%2$s` dient te worden vervangen door een nieuwere versie uit `%3$s."
+msgstr "`%1$s` in `%2$s` sollte ersetzt werden durch eine neuere Version aus `%3$s."
+
+msgid "achtergrond kleur"
+msgstr "Hintergrundfarbe"
+
+msgid "achternaam"
+msgstr "Nachname"
+
+msgid "actief"
+msgstr "Aktiv"
+
+msgid "afbeelding"
+msgstr "Abbildung"
+
+msgid "album"
+msgstr "Album"
+
+msgid "albums"
+msgstr "Alben"
+
+msgid "alleen nieuws tonen"
+msgstr "Nur News anzeigen"
+
+msgid "annuleer"
+msgstr "Abbrechen"
+
+msgid "apr"
+msgstr "Apr"
+
+msgid "april"
+msgstr "April"
+
+msgid "aug"
+msgstr "Aug"
+
+msgid "augustus"
+msgstr "August"
+
+msgid "auto-publish"
+msgstr ""
+
+msgid "automatisch goedkeuren nieuwe gastenboek berichten"
+msgstr ""
+
+msgid "beheer voorkeuren"
+msgstr ""
+
+msgid "bericht"
+msgstr ""
+
+msgid "beschrijving"
+msgstr ""
+
+msgid "bestand"
+msgstr ""
+
+msgid "bestandsnaam"
+msgstr ""
+
+msgid "beveiligd"
+msgstr ""
+
+msgid "beveiligde albums zonder user voor alle users"
+msgstr ""
+
+msgid "bewaar"
+msgstr ""
+
+msgid "bold"
+msgstr ""
+
+msgid "contactgegevens"
+msgstr ""
+
+msgid "controle wachtwoord"
+msgstr ""
+
+msgid "controleer QuickTime versie"
+msgstr ""
+
+msgid "copyright"
+msgstr ""
+
+msgid "datum"
+msgstr ""
+
+msgid "day month year"
+msgstr ""
+
+msgid "de website root"
+msgstr ""
+
+msgid "dec"
+msgstr ""
+
+msgid "december"
+msgstr ""
+
+msgid "dit domein is niet geregistreerd bij het systeem"
+msgstr ""
+
+msgid "e-mail"
+msgstr ""
+
+msgid "e-mail gegevens"
+msgstr ""
+
+msgid "e-mail link"
+msgstr ""
+
+msgid "externe link"
+msgstr ""
+
+msgid "fax"
+msgstr ""
+
+msgid "feb"
+msgstr ""
+
+msgid "februari"
+msgstr ""
+
+msgid "formaat"
+msgstr ""
+
+msgid "frontend"
+msgstr ""
+
+msgid "gastenboek"
+msgstr ""
+
+msgid "gebruikers beheer"
+msgstr ""
+
+msgid "gebruikers voorkeuren management"
+msgstr ""
+
+msgid "geen items exporteren"
+msgstr ""
+
+msgid "geen naam"
+msgstr ""
+
+msgid "geen nieuws exporteren"
+msgstr ""
+
+msgid "geen titel"
+msgstr ""
+
+msgid "heeft eigen velden"
+msgstr ""
+
+msgid "heeft nieuwsbrief module"
+msgstr ""
+
+msgid "ingelogd op"
+msgstr ""
+
+msgid "inloggegevens"
+msgstr ""
+
+msgid "instructies"
+msgstr ""
+
+msgid "interne link"
+msgstr ""
+
+msgid "italic"
+msgstr ""
+
+msgid "items hebben een subtitel"
+msgstr ""
+
+msgid "jan"
+msgstr ""
+
+msgid "januari"
+msgstr ""
+
+msgid "juli"
+msgstr ""
+
+msgid "juni"
+msgstr ""
+
+msgid "kan album types wijzigen"
+msgstr ""
+
+msgid "kan albums toevoegen"
+msgstr ""
+
+msgid "kan beveiligde albums/gebruikers aanmaken"
+msgstr ""
+
+msgid "kan interne links gebruiken"
+msgstr ""
+
+msgid "kan nieuws templates gebruiken"
+msgstr ""
+
+msgid "kan subgebruikers aanmaken"
+msgstr ""
+
+msgid "kan tags gebruiken"
+msgstr ""
+
+msgid "kan tekst nodes gebruiken"
+msgstr ""
+
+msgid "keywords"
+msgstr ""
+
+msgid "kopieer item"
+msgstr ""
+
+msgid "locked"
+msgstr ""
+
+msgid "log in"
+msgstr ""
+
+msgid "log uit"
+msgstr ""
+
+msgid "login"
+msgstr ""
+
+msgid "login of wachtwoord is verkeerd"
+msgstr ""
+
+msgid "maart"
+msgstr ""
+
+msgid "media"
+msgstr ""
+
+msgid "mei"
+msgstr ""
+
+msgid "metadata"
+msgstr ""
+
+msgid "mobiel"
+msgstr ""
+
+msgid "mrt"
+msgstr ""
+
+msgid "naam"
+msgstr ""
+
+msgid "naam gebruiker"
+msgstr ""
+
+msgid "nieuw album"
+msgstr ""
+
+msgid "nieuw album..."
+msgstr ""
+
+msgid "nieuw item"
+msgstr ""
+
+msgid "nieuwe gebruiker..."
+msgstr ""
+
+msgid "nieuwe sectie"
+msgstr ""
+
+msgid "nieuwe sectie..."
+msgstr ""
+
+msgid "nieuwsbrieven"
+msgstr ""
+
+msgid "nov"
+msgstr ""
+
+msgid "november"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "okt"
+msgstr ""
+
+msgid "oktober"
+msgstr ""
+
+msgid "ondersteuning voor gastenboek"
+msgstr ""
+
+msgid "onderwerp"
+msgstr ""
+
+msgid "opties"
+msgstr ""
+
+msgid "positie"
+msgstr ""
+
+msgid "publish"
+msgstr ""
+
+msgid "sectie"
+msgstr ""
+
+msgid "sections hebben een subtitel"
+msgstr ""
+
+msgid "sept"
+msgstr ""
+
+msgid "september"
+msgstr ""
+
+msgid "site beheer"
+msgstr ""
+
+msgid "site voorkeuren"
+msgstr ""
+
+msgid "sluit"
+msgstr ""
+
+msgid "social media"
+msgstr ""
+
+msgid "start"
+msgstr ""
+
+msgid "subtitel"
+msgstr ""
+
+msgid "taal"
+msgstr ""
+
+msgid "tags"
+msgstr ""
+
+msgid "tags beheer"
+msgstr ""
+
+msgid "tekst object"
+msgstr ""
+
+msgid "tekst sectie"
+msgstr ""
+
+msgid "telefoon"
+msgstr ""
+
+msgid "titel"
+msgstr ""
+
+msgid "toon tags"
+msgstr ""
+
+msgid "type"
+msgstr ""
+
+msgid "u kunt niet inloggen op dit domein, log in via uw eigen domein"
+msgstr ""
+
+msgid "update"
+msgstr ""
+
+msgid "upload meerdere items"
+msgstr ""
+
+msgid "uw login staat uitgeschakeld"
+msgstr ""
+
+msgid "van de"
+msgstr ""
+
+msgid "verplaatsen node zet positie op 1"
+msgstr ""
+
+msgid "versie"
+msgstr ""
+
+msgid "verwerken"
+msgstr ""
+
+msgid "verwijder album"
+msgstr ""
+
+msgid "verwijder bericht"
+msgstr ""
+
+msgid "verwijder gebruiker"
+msgstr ""
+
+msgid "verwijder item"
+msgstr ""
+
+msgid "verwijder sectie"
+msgstr ""
+
+msgid "voeg nieuw nieuwsitem toe"
+msgstr ""
+
+msgid "voorkeuren"
+msgstr ""
+
+msgid "voorkeuren bewaard."
+msgstr ""
+
+msgid "voornaam"
+msgstr ""
+
+msgid "voortgang"
+msgstr ""
+
+msgid "wachtwoord"
+msgstr ""
+
+msgid "wachtwoord is bewaard."
+msgstr ""
+
+msgid "wachtwoord was incorrect en dus niet bewaard, oude wachtwoord is nog actief."
+msgstr ""
+
+#, php-format
+msgid "wijzig '%s'"
+msgstr ""
+
+msgid "wijzig item"
+msgstr ""
+
+msgid "wijzig scherm weergave"
+msgstr ""
+
+msgid "yourportfolio voorkeuren"
+msgstr ""
+
+msgid "zichtbaar"
+msgstr ""
+
+msgid "zichtbaar in mobiele site"
+msgstr ""

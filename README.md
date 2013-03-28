@@ -1,4 +1,4 @@
 Yourportfolio
 =============
 
-Our 'old' Yourportfolio CMS.
+Our legacy Yourportfolio CMS.

@@ -1,0 +1,238 @@
+/* reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	border: 0;
+	outline: 0;
+	background: transparent;
+}
+a {
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	letter-spacing: 0.1em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clear { clear: both; }
+.left { float: left; }
+.right { float: right; }
+img.left { margin: 0 10px 5px 0; }
+img.right { margin: 0 0 5px 10px; }
+
+
+/* Typography */
+h1 {
+	font-size: 140%;
+	margin: 0 0 10px 0;
+}
+
+h2 {
+	font-size: 120%;
+	margin: 0 0 5px 0;
+}
+
+a {
+	color: #000000;
+}
+
+/* General */
+body {	
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	color: #000;
+	background-color: #f7f7f7;
+	line-height: 120%;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 10px 20px 10px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+/* Header */
+
+#header {
+	width: 700px;
+/* 	height: 140px; */
+	padding: 0 0 20px 0;
+	margin: 0 0 0 200px;
+}
+#header a#logo {
+	display: block;
+	font-size: 160%;
+	line-height: 130%;
+	text-decoration: none;
+}
+#body {
+	width: 100%;
+}
+
+/* Navigation */
+
+#body #navigation {
+	float: left;
+	width: 180px;
+}
+
+#body #navigation ul li a {
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	display: block;
+	width: auto;
+	padding: 5px;
+}
+#body #navigation ul li ul li a {
+	margin: 0 0 0 20px;
+	font-size: 90%;
+}
+#body #navigation ul li ul li ul li a {
+	margin: 0 0 0 40px;
+	font-size: 80%;
+}
+#body #navigation ul li a.active {
+	background-color: #f7f7f7;
+}
+#body #navigation ul li a:hover {
+	background-color: #eeeeee;
+}
+
+/* Content */
+
+#body #content {
+	float: right;
+	width: 700px;
+	margin: 0 0 20px 0;
+}
+
+#body #content p {
+	margin: 0 0 10px 0;
+	font-size: 90%;
+}
+#body #content a.back {
+	margin: 0 0 10px 0;
+	padding: 10px;
+	border: 1px solid red;
+	font-size: 90%;
+	color: #999;
+}
+
+#footer {
+	clear: both;
+	margin: 0 0 0 200px;
+	font-size: 80%;
+}
+
+/* Gallery */
+
+table.gallery tr td {
+	padding: 25px 20px 0 0;
+	text-align: center;
+	vertical-align: bottom;
+}
+ul.thumbs li {
+	margin: 0 0 10px 0;
+	height: 56px;
+}
+ul.thumbs li .placeholder, ul.thumbs li img {
+	height: 56px;
+	width: 100px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+ul.thumbs li .placeholder {
+	height: 54px;
+	width: 98px;
+	border: 1px solid #333;
+}
+ul.thumbs li {
+	height: 56px;
+	line-height: 56px;
+	font-size: 17px;
+	font-weight: normal;
+}
+/* News */
+
+#content div.newsitem {
+	padding: 0 0 5px 0;
+	margin: 0 0 20px 0;
+	border-bottom: 2px solid #eeeeee;
+}
+#content div.newsitem span.date {
+	font-size: 80%;
+	margin: 0 0 10px 0;
+	display: block;
+}
+#content div.newsitem h2 {
+	font-weight: bold;
+}
+
+/* Gallery Holder */
+.gallery_holder {
+	text-align: center;
+}
+.gallery_holder .navigation .left, .gallery_holder .navigation .right {
+	width: 120px;
+	margin: 10px 0 0 0;
+}
+.gallery_holder .navigation .left {
+	float: left;
+	text-align: left;
+}
+.gallery_holder .navigation .right {
+	float: right;
+	text-align: right;
+}
+@media (orientation: landscape) {
+	.gallery_holder img {
+		max-height: 500px;
+	}
+}
+
+/* Video */
+embed, object, video { 
+	width: 660px;
+	height: 440px;
+}
+
+/* Stylesheet picker */
+#laguage_select {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	font-size: 9px;
+	text-align: right;
+}
+
+/* Contact */
+ul.contact li {
+	width: 320px;
+}
+ul.contact li input, ul.contact li textarea {
+	width: 100%;
+	border: 1px solid #aaa;
+	padding: 5px;
+}
+
+ul.contact li input.submit {
+	background-color: #fff;
+	border: 1px solid #aaa;
+}

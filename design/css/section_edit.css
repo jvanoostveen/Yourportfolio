@@ -1,0 +1,12 @@
+td.note
+{
+	color: #888888;
+	font-size: smaller;
+	font-style: italic;
+}
+
+textarea
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}

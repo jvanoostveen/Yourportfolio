@@ -1,0 +1,7 @@
+
+name:    <?=$this->_canvas->text_filter($this->name)?> 
+address: <?=$this->_canvas->text_filter($this->email)?> 
+
+message: 
+<?=$this->_canvas->text_filter($this->message)?> 
+

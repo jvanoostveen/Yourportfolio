@@ -1,0 +1,125 @@
+<?PHP
+/**
+ * Project:			yourportfolio
+ *
+ * @link http://www.yourportfolio.nl
+ * @copyright 2007 Furthermore
+ * @author Joeri van Oostveen <joeri@furthermore.nl>
+ */
+
+/**
+ * XML output file for flash (multilingual)
+ *
+ * @package yourportfolio
+ * @subpackage XML
+ */
+?>
+<?='<'.'?xml version="1.0" encoding="UTF-8"'.'?'.'>'."\n"?>
+<? if (!empty($this->xml_albums)) : /* has albums */ ?>
+<stories photographer="<?=$this->session['id']?>" title="<?=$this->_canvas->xml_filter($this->preferences['title'])?>" default_language="<?=$GLOBALS['YP_DEFAULT_LANGUAGE']?>" client_login="<?=($this->settings['restricted_albums'] ? '1' : '0' )?>" amfhybrid="<?=($this->settings['xml_amf_hybrid'] ? '1' : '0')?>">
+<? foreach($this->xml_albums as $xml_album_data) : /* album loop */ ?>
+<? $xml_album = new Album($xml_album_data); ?>
+<? $xml_album->loadLanguageStrings(); ?>
+<? $album_preview = $xml_album->getFile('preview'); ?>
+	<story id="<?=$xml_album->id?>" template="<?=$xml_album->template?>" type="<?=$xml_album->type?>" link="<?=$xml_album->link?>">
+<? foreach ($GLOBALS['YP_LANGUAGES'] as $lang_key => $language) : /* loop languages */ ?>
+<? $name = $xml_album->getParsedText('name', $lang_key); ?>
+<? if (!empty($name)) : ?>
+		<title language="<?=$lang_key?>"><![CDATA[<?=$this->_canvas->xml_filter($xml_album->getParsedText('name', $lang_key))?>]]></title>
+<? endif; ?>
+<? $text = $xml_album->getParsedText('text_original', $lang_key); ?>
+<? if (!empty($text)) : ?>
+		<text language="<?=$lang_key?>"><![CDATA[<?=$this->_canvas->xml_filter($xml_album->getParsedText('text_original', $lang_key))?>]]></text>
+<? endif; ?>
+<? endforeach; /* end loop languages */ ?>
+<? if (!empty($xml_album->files)) : /* has files */ ?>
+<? foreach ($xml_album->files as $file_id => $file) : /* loop through files */ ?>
+<? if ($file->online == 'N') continue; /* skip file when file is offline */ ?>
+		<?=XMLUtil::fileNode($file)?>
+<? endforeach; /* end loop through files */ ?>
+<? endif; /* end has files */ ?>
+<? if (!empty($xml_album->sections) || $xml_album->sectionCount > 0) : /* has sections */ ?>
+		<sections count="<?=$xml_album->sectionCount?>">
+<? foreach($xml_album->sections as $xml_section_data) : /* section loop */ ?>
+<? $xml_section = new Section($xml_section_data); ?>
+<? $xml_section->loadLanguageStrings(); ?>
+<? $section_preview = $xml_section->getFile('preview'); ?>
+			<section id="<?=$xml_section->id?>" template="<?=$xml_section->template?>" link="<?=$xml_section->link?>" selection="<?=$xml_section->is_selection?>" type="<?=$xml_section->type?>">
+<? foreach ($GLOBALS['YP_LANGUAGES'] as $lang_key => $language) : /* loop languages */ ?>
+<? $name = $xml_section->getParsedText('name', $lang_key); ?>
+<? if (!empty($name)) : ?>
+				<title language="<?=$lang_key?>"><![CDATA[<?=$this->_canvas->xml_filter($xml_section->getParsedText('name', $lang_key))?>]]></title>
+<? endif; ?>
+<? if ($this->settings['sections_have_subname']) : ?>
+<? $subtitle = $xml_section->getParsedText('subname', $lang_key); ?>
+<? if (!empty($subtitle)) : ?>
+				<subtitle language="<?=$lang_key?>"><![CDATA[<?=$this->_canvas->xml_filter($subtitle)?>]]></subtitle>
+<? endif; /* subtitle empty */ ?>
+<? endif; ?>
+<? $text = $xml_section->getParsedText('text_original', $lang_key); ?>
+<? if (!empty($text)) : ?>
+				<text language="<?=$lang_key?>"><![CDATA[<?=$this->_canvas->xml_filter($xml_section->getParsedText('text_original', $lang_key))?>]]></text>
+<? endif; ?>
+<? endforeach; /* end loop languages */ ?>
+<? if ($xml_section->template == 'newsitem') : /* needs a date */ ?>
+				<date><![CDATA[<?=$this->_canvas->xml_filter(date('Y-m-d',strtotime($xml_section->section_date)))?>]]></date>
+<? endif; ?>
+<? if (!empty($xml_section->custom_data)) : ?>
+        <custom>
+<? foreach ($xml_section->custom_data as $custom_key => $custom_data) : ?>
+				  <<?=$custom_key?>><![CDATA[<?=$this->_canvas->xml_filter($custom_data)?>]]></<?=$custom_key?>>
+<? endforeach; ?>
+        </custom>
+<? endif; ?>
+<? if (!empty($xml_section->files)) : /* has files */ ?>
+<? foreach ($xml_section->files as $file_id => $file) : /* loop through files */ ?>
+<? if ($file->online == 'N') continue; /* skip file when file is offline */ ?>
+				<?=XMLUtil::fileNode($file)?>
+<? endforeach; /* end loop through files */ ?>
+<? endif; /* end has files */ ?>
+<? if (!empty($xml_section->items) || $xml_section->itemCount > 0) : /* has items */ ?>
+				<items count="<?=$xml_section->itemCount?>">
+<? foreach($xml_section->items as $xml_item_data) : /* item loop */ ?>
+<? $xml_item = new Item($xml_item_data); ?>
+					<item id="<?=$xml_item->id?>" type="<?=$xml_item->type?>" link="<?=$xml_item->link?>" filter="<?=$xml_item->label_type?>">
+<? foreach ($GLOBALS['YP_LANGUAGES'] as $lang_key => $language) : /* loop languages */ ?>
+<? $name = $xml_item->getParsedText('name', $lang_key); ?>
+<? if (!empty($name)) : ?>
+						<title language="<?=$lang_key?>"><![CDATA[<?=$this->_canvas->xml_filter($xml_item->getParsedText('name', $lang_key))?>]]></title>
+<? endif; ?>
+<? if ($this->settings['items_have_subname']) : ?>
+<? $subtitle = $xml_item->getParsedText('subname', $lang_key); ?>
+<? if (!empty($subtitle)) : ?>
+						<subtitle language="<?=$lang_key?>"><![CDATA[<?=$this->_canvas->xml_filter($subtitle)?>]]></subtitle>
+<? endif; /* subtitle empty */ ?>
+<? endif; ?>
+<? $text = $xml_item->getParsedText('text_original', $lang_key); ?>
+<? if (!empty($text)) : ?>
+						<text language="<?=$lang_key?>"><![CDATA[<?=$this->_canvas->xml_filter($xml_item->getParsedText('text_original', $lang_key))?>]]></text>
+<? endif; ?>
+<? endforeach; /* end loop languages */ ?>
+<? if (!empty($xml_item->custom_data)) : ?>
+<? foreach ($xml_item->custom_data as $custom_key => $custom_data) : ?>
+						<<?=$custom_key?>><![CDATA[<?=$this->_canvas->xml_filter($custom_data)?>]]></<?=$custom_key?>>
+<? endforeach; ?>
+<? endif; ?>
+<? if (!empty($xml_item->files)) : /* has files */ ?>
+<? foreach ($xml_item->files as $file_id => $file) : /* loop through files */ ?>
+<? if ($file->online == 'N') continue; /* skip file when file is offline */ ?>
+						<?=XMLUtil::fileNode($file)?>
+<? endforeach; /* end loop through files */ ?>
+<? endif; /* end has files */ ?>
+					</item>
+<? endforeach; /* end item loop */ ?>
+				</items>
+<? endif; /* end has items */ ?>
+			</section>
+<? endforeach; /* end section loop */ ?>
+		</sections>
+<? endif; /* end has sections */ ?>
+	</story>
+<? endforeach; /* end album loop */ ?>
+</stories>
+<? else : /* has no albums */ ?>
+<empty />
+<? endif; /* end has albums */ ?>

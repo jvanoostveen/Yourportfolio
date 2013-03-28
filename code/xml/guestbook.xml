@@ -1,0 +1,25 @@
+<?PHP
+/**
+ * Project:			yourportfolio
+ *
+ * @link http://www.yourportfolio.nl
+ * @copyright 2007 Furthermore
+ * @author Joeri van Oostveen <joeri@furthermore.nl>
+ */
+
+/**
+ * XML output file for flash (xml output 2.6)
+ *
+ * @package yourportfolio
+ * @subpackage XML
+ */
+?>
+<guestbook id="<?=$guestbook->album_id?>">
+<? foreach($messages as $message) : /* loop tru messages */ ?>
+	<message language="<?=$message->language?>">
+		<name><?=$this->_canvas->xml_filter($message->name)?></name>
+		<date><?=$this->_canvas->xml_filter($this->_canvas->readableDate($message->date, false, false))?></date>
+		<text><?=$this->_canvas->xml_filter($message->message)?></text>
+	</message>
+<? endforeach; /* end message loop */ ?>
+</guestbook>

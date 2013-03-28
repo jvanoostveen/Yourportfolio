@@ -1,0 +1,142 @@
+img
+{
+	border: 0px;
+}
+
+/* background colours */
+.bg_black
+{
+	background-color: black;
+}
+
+.bg_white
+{
+	background-color: white;
+}
+
+.bg_grey
+{
+	background-color: #C3C3C3;
+}
+
+.bg_lightgrey
+{
+	background-color: #D9D9D9;
+}
+
+/* foreground colours */
+.fg_white
+{
+	color: white;
+}
+
+.fg_black
+{
+	color: black;
+}
+
+.fg_grey
+{
+	color: #888888;
+}
+
+.fg_darkgrey
+{
+	color: #6D6D6D;
+}
+
+.fg_red
+{
+	color: #A50000;
+}
+
+/* text sizes */
+.txt_mediumlarge
+{
+	font-size: 14px;
+}
+
+.txt_medium
+{
+	font-size: 12px;
+}
+
+.txt_mediumsmall
+{
+	font-size: 10px;
+}
+
+.txt_small
+{
+	font-size: 10px;
+}
+
+.txt_no_underline, .txt_no_underline:hover
+{
+	text-decoration: none;
+}
+
+/* text styles */
+.bold
+{
+	font-weight: bold;
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+/* link behaviors */
+a
+{
+	outline: none;
+}
+
+a.default, a.default:link, a.default:active, a.default:visited
+{
+	text-decoration: none;
+}
+a.default:hover
+{
+	text-decoration: underline;
+}
+.block
+{
+	display: block;
+}
+
+.hand
+{
+	cursor: hand;
+}
+
+/* inputs modifications */
+textarea
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.fullsize
+{
+	width: 100%
+}
+
+.hidden
+{
+	display: none;
+}
+
+.padding
+{
+	padding: 5px 10px 5px 10px;
+}
+
+.blacklink, a.blacklink, a.blacklink:link, a.blacklink:active, a.blacklink:visited, a.blacklink:hover
+{
+		color: #000000;
+		font-size: 14px;
+		font-weight: bold;
+		text-decoration: underline;
+}

@@ -1,0 +1,229 @@
+/* border lines */
+
+.dashedline
+{
+	background-image: url('../img/dashed_line.gif'); /* path based on css file location */
+	background-repeat: repeat-x;
+	height: 17px;
+}
+
+
+/* menu */
+.selected
+{
+	background-color: #FFFFFF;
+	height: 24px;
+}
+
+.unselected
+{
+	height: 24px;
+}
+
+.unselected:hover
+{
+	background-color: #FFFFFF;
+}
+
+.center_bg_image
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.border_grey
+{
+	border-color: #9C9C9C;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.overflow
+{
+	width: 115px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #FFFFFF;
+}
+
+.grid
+{
+	padding: 5px 0px 5px 0px;
+}
+
+.griditem
+{
+	background-color: #C3C3C3;
+	width: 120px;
+	height: 110px;
+	float: left;
+	margin: 5px;
+}
+
+.griditem-image
+{
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	vertical-align: middle;
+	width: 120px;
+	height: 90px;
+}
+
+.griditem-label
+{
+	position: relative;
+	background: #000000;
+	color: #FFFFFF;
+	width: 120px;
+	height: 20px;
+	font-size: 10px;
+}
+
+.griditem-label div
+{
+	position: absolute;
+	left: 20px;
+	top: 3px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 90px;
+}
+
+/* item edit upload box */
+.upload_arrow
+{
+	padding: 6px 2px 2px 3px;
+}
+
+.upload_text
+{
+	padding: 3px 2px 2px 3px;
+}
+
+.extension_listing
+{
+	font-family: monospace;
+}
+
+/* css for language selections */
+#language-switch ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#language-switch li
+{
+	float: left;
+	margin: 0 0.15em;
+	padding: 0;
+	text-align: center
+}
+
+#language-switch li a
+{
+	height: 2em;
+	line-height: 2em;
+	float: left;
+	width: 9em;
+	display: block;
+	background-color: #EDEDED;
+	color: #4C4C4C;
+	text-decoration: none;
+	text-align: center;
+}
+
+#language-switch li a.active
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+/* Commented backslash hack hides rule from IE5-Mac \*/
+#language-switch li a
+{
+	float: none
+}
+/* End IE5-Mac hack */
+
+#language-switch li a:hover
+{
+	background-color: #9C9C9C;
+	color: #FFFFFF;
+}
+
+#language-switch li a.active:hover
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.popupDiv
+{
+	position: absolute; 
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	height: 100px;
+	width: 300px;
+	margin: 0;
+	z-index: 10;
+	visibility: hidden;
+}
+
+.popupInnerDiv
+{
+	margin: 0; 
+	padding: 0; 
+	background-color: #ffffff; 
+	height: 132px; 
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	position: relative;
+}
+
+.popupDiv td.white {
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #ffffff;
+	border-right: 1px solid #000000;	
+	border-left: 1px solid #000000;
+}
+
+.popupDiv td.heading {
+	background: transparent;
+	border: 0;
+}
+
+.button {
+	text-align: center; 
+	margin-right: 8px;
+	padding-top: 2px;
+	width: 70px;
+	height: 17px;
+	background-color: #000000;
+}
+
+.floating_label {
+	position: absolute;
+	left: -103px;
+	width: 100px;
+	text-align: right;
+	padding-top: 5px;
+}
+
+.metadata_toggle {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.metadata_toggle:hover {
+	text-decoration: underline;
+}
+

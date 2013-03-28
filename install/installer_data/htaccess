@@ -1,0 +1,30 @@
+Options +FollowSymlinks
+
+AddDefaultCharset ISO-8859-1
+
+RewriteEngine on
+RewriteBase /
+
+RewriteRule asfunction:Application.asfunction_show,([0-9]*),?([0-9]*)?,?([0-9]*)? index.php?q=$1/$2/$3/ [L]
+RewriteRule event:([^/]*)/?([^/]*)?/?([^/]*)? index.php?q=$1/$2/$3/ [L]
+
+RewriteRule ^downloads/?([^/]*)/?([^/]*)/?([^/]*)/?	download.php?$1=$2&fid=$3&show	[PT,L]
+RewriteRule ^newsletter/([^/]*)/?	newsletter_view.php?nid=$1	[PT,L]
+RewriteRule ^rss/?(.+)$	rss.php?q=$1	[PT,L]
+
+RewriteCond	%{REQUEST_FILENAME}	!-f
+RewriteCond	%{REQUEST_FILENAME}	!-l
+RewriteCond %{REQUEST_URI} !^/favicon\.ico
+RewriteRule	^(.+[^/])$		$1/		[R,L]
+
+RewriteCond	%{REQUEST_FILENAME}	!-f
+RewriteCond	%{REQUEST_FILENAME}	!-l
+RewriteCond	%{REQUEST_FILENAME}	!-d
+RewriteCond %{REQUEST_URI} !^/favicon\.ico
+RewriteRule ^(.+)$ index.php?q=$1 [L]
+
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/plain text/html text/css
+	AddOutputFilterByType DEFLATE text/xml application/xml application/xhtml+xml application/rss+xml
+	AddOutputFilterByType DEFLATE application/javascript application/x-javascript
+</IfModule>

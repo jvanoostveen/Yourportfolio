@@ -1,0 +1,614 @@
+msgid " is geen geldig e-mail adres"
+msgstr ""
+
+#, php-format
+msgid "%s adressen zullen worden verwijderd, weet u het zeker?"
+msgstr ""
+
+msgid "Adres niet toegevoegd"
+msgstr ""
+
+msgid "Adressen"
+msgstr ""
+
+msgid "Adressen opschonen"
+msgstr ""
+
+msgid "Adressen per pagina"
+msgstr ""
+
+msgid "Adressen toevoegen aan:"
+msgstr ""
+
+msgid "Afbeelding"
+msgstr ""
+
+msgid "Afbeelding (W x H)"
+msgstr ""
+
+msgid "Afbeeldingen"
+msgstr ""
+
+msgid "Afzender naam"
+msgstr ""
+
+msgid "Al bestaand"
+msgstr ""
+
+msgid "Al bestaande adressen"
+msgstr ""
+
+msgid "Alles"
+msgstr ""
+
+msgid "Als u deze pagina verlaat, wordt het versturen verstopt. Wanneer u het versturen wilt onderbreken kunt u op 'stop' klikken. Het versturen stopt dan niet onmiddelijk, maar op het eerst mogelijke punt."
+msgstr ""
+
+msgid "Begin mailing naar geselecteerde groepen."
+msgstr ""
+
+msgid "Bevestigd"
+msgstr ""
+
+msgid "Bewaar"
+msgstr ""
+
+#, php-format
+msgid "Bij problemen met importeren, plaats maximaal %s adressen per keer."
+msgstr ""
+
+msgid "Bounced"
+msgstr ""
+
+msgid "Controleren op berichten voltooid"
+msgstr ""
+
+msgid "De adressen worden geladen ..."
+msgstr ""
+
+msgid "De berichten worden verzonden"
+msgstr ""
+
+msgid "De groep naam is te lang"
+msgstr ""
+
+msgid "De groep naam mag niet leeg zijn"
+msgstr ""
+
+msgid "Default titel"
+msgstr ""
+
+msgid "Download als CSV bestand"
+msgstr ""
+
+msgid "E-mail adres"
+msgstr ""
+
+msgid "Editie / datum"
+msgstr ""
+
+msgid "Een email adres dient een @ te bevatten"
+msgstr ""
+
+msgid "Een email adres dient een punt in de domeinnaam te bevatten"
+msgstr ""
+
+msgid "Een email adres mag niet meer dan een @ bevatten"
+msgstr ""
+
+msgid "Een groep naam mag niet leeg zijn"
+msgstr ""
+
+msgid "Er bestaat al een groep met deze naam"
+msgstr ""
+
+msgid "Er is een fatale fout opgetreden. Probeer het verzenden later opnieuw."
+msgstr ""
+
+msgid "Er is een fout opgetreden bij het versturen van de mail queue:"
+msgstr ""
+
+msgid "Er is een fout opgetreden bij het wegschrijven van het bestand."
+msgstr ""
+
+#, php-format
+msgid "Er is een fout opgetreden tijdens de verwerking van de e-mails. Neem contact op met %s."
+msgstr ""
+
+#, php-format
+msgid "Er kon geen verbinding worden gemaakt met de POP3 mail server %s. Probeer het later nog eens."
+msgstr ""
+
+msgid "Er kon geen verbinding worden gemaakt met de mail server voor verzending. Probeer het later opnieuw."
+msgstr ""
+
+msgid "Er was een fout in uw invoer"
+msgstr ""
+
+msgid "Er zijn geen adressen"
+msgstr ""
+
+msgid "Er zijn geen afbeeldingen beschikbaar"
+msgstr ""
+
+msgid "Er zijn geen nieuwsbrieven in deze map"
+msgstr ""
+
+msgid "Er zijn geen onverzonden berichten."
+msgstr ""
+
+#, php-format
+msgid "Er zijn momenteel geen groepen. Klik %shier%s om een groep aan te maken."
+msgstr ""
+
+#, php-format
+msgid "Er zijn momenteel geen templates. Klik %s om een template aan te maken."
+msgstr ""
+
+msgid "Er zijn nog geen groepen gedefini&euml;erd"
+msgstr ""
+
+msgid "Er zijn nog geen templates aangemaakt."
+msgstr ""
+
+msgid "Error bij verzenden"
+msgstr ""
+
+msgid "Fout bij ophalen van inkomende mail"
+msgstr ""
+
+msgid "Foutmeldingen"
+msgstr ""
+
+msgid "Geen host adres opgegeven"
+msgstr ""
+
+msgid "Groep bewerken"
+msgstr ""
+
+msgid "Groep is zichtbaar op de website"
+msgstr ""
+
+msgid "Groep is zichtbaar op website"
+msgstr ""
+
+msgid "Groep verwijderen"
+msgstr ""
+
+msgid "Groepen"
+msgstr ""
+
+msgid "Groepen waarnaar deze nieuwsbrief gestuurd moet worden"
+msgstr ""
+
+msgid "Het adres staat al in de lijst (bij bounces) en is niet nog een keer toegevoegd."
+msgstr ""
+
+msgid "Het adres staat al in de lijst en is niet nog een keer toegevoegd."
+msgstr ""
+
+#, php-format
+msgid "Het inloggen op de POP3 mail server als gebruiker %s is mislukt. Controleer de instellingen en probeer het opnieuw."
+msgstr ""
+
+msgid "Het versturen is voltooid"
+msgstr ""
+
+msgid "Huidige items"
+msgstr ""
+
+msgid "Inhoud"
+msgstr ""
+
+msgid "Instelling"
+msgstr ""
+
+msgid "Ja"
+msgstr ""
+
+msgid "Let op:"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Mailing"
+msgstr ""
+
+msgid "Max. aantal errors"
+msgstr ""
+
+msgid "Meerdere adressen toevoegen"
+msgstr ""
+
+msgid "Naam"
+msgstr ""
+
+msgid "Naam, Adres, Status, Datum aangemaakt, Ontvangen nieuwsbrieven\n"
+msgstr ""
+
+msgid "Nee"
+msgstr ""
+
+msgid "Nieuwe groep"
+msgstr ""
+
+msgid "Nieuwsbrief"
+msgstr ""
+
+msgid "Nieuwsbrief settings"
+msgstr ""
+
+msgid "Nieuwsbrief titel"
+msgstr ""
+
+msgid "Nieuwsbrieven"
+msgstr ""
+
+msgid "Nog te verzenden"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Onbevestigd"
+msgstr ""
+
+msgid "Onderwerp"
+msgstr ""
+
+msgid "Ongeldig"
+msgstr ""
+
+msgid "Ongeldige adressen"
+msgstr ""
+
+msgid "Onverzonden"
+msgstr ""
+
+msgid "Opmaak"
+msgstr ""
+
+msgid "Opt-in status"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Reeds verzonden"
+msgstr ""
+
+msgid "Resterende tijd"
+msgstr ""
+
+msgid "Resultaten"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Sinds laatste bezoek"
+msgstr ""
+
+msgid "Startpagina"
+msgstr ""
+
+msgid "Status van ontvangstbevestiging (opt-in)"
+msgstr ""
+
+msgid "Te verzenden"
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Template gegevens"
+msgstr ""
+
+msgid "There was an error loading the data:"
+msgstr ""
+
+msgid "There was an error while loading the data:"
+msgstr ""
+
+msgid "Titel"
+msgstr ""
+
+msgid "Toegevoegd"
+msgstr ""
+
+msgid "Toevoegen"
+msgstr ""
+
+msgid "Totaal"
+msgstr ""
+
+msgid "Totalen"
+msgstr ""
+
+msgid "U heeft de naam van een bestaande groep opgegeven."
+msgstr ""
+
+msgid "U heeft geen adressen ingevuld."
+msgstr ""
+
+msgid "U heeft geen groep naam ingeuld voor de nieuwe groep."
+msgstr ""
+
+msgid "U heeft nog geen geadresseerde groepen geselecteerd, aan de verzending kan nog niet worden begonnen"
+msgstr ""
+
+msgid "Uitgeschreven"
+msgstr ""
+
+msgid "Versturen"
+msgstr ""
+
+msgid "Verzonden"
+msgstr ""
+
+msgid "Voorbeeld"
+msgstr ""
+
+msgid "Waarde"
+msgstr ""
+
+msgid "Weet u zeker dat u al deze adressen wil toevoegen?"
+msgstr ""
+
+msgid "Weet u zeker dat u de onverzonden mails van deze zending wilt annuleren?"
+msgstr ""
+
+msgid "Weet u zeker dat u deze afbeelding wil verwijderen?"
+msgstr ""
+
+msgid "Weet u zeker dat u deze berichten wilt versturen?\\n\\nWanneer u op OK hebt geklikt, zal het versturen beginnen. Het kan enige tijd duren voor u weer een pagina te zien krijgt."
+msgstr ""
+
+msgid "Weet u zeker dat u deze groep wilt verwijderen?"
+msgstr ""
+
+msgid "Weet u zeker dat u deze nieuwsbrief wilt versturen?"
+msgstr ""
+
+msgid "Weet u zeker dat u deze nieuwsbrief wilt verwijderen?"
+msgstr ""
+
+msgid "Weet u zeker dat u deze template wil verwijderen?"
+msgstr ""
+
+msgid "Weet u zeker dat u dit adres uit de database wilt verwijderen?"
+msgstr ""
+
+msgid "Weet u zeker dat u dit bestand wilt verwijderen?"
+msgstr ""
+
+msgid "Weet u zeker dat u dit item wilt verwijderen?"
+msgstr ""
+
+msgid "Zichtbaar"
+msgstr ""
+
+msgid "adressen"
+msgstr ""
+
+msgid "afgemeld"
+msgstr ""
+
+msgid "afmeldingen"
+msgstr ""
+
+msgid "alle adressen"
+msgstr ""
+
+msgid "alleen leden"
+msgstr ""
+
+msgid "begin mailing"
+msgstr ""
+
+msgid "bekijk nieuwsbrief in een nieuw venster"
+msgstr ""
+
+msgid "bewaar"
+msgstr ""
+
+msgid "bold"
+msgstr ""
+
+msgid "bounces"
+msgstr ""
+
+msgid "datum gewijzigd"
+msgstr ""
+
+msgid "datum toegevoegd"
+msgstr ""
+
+msgid "datum verstuurd"
+msgstr ""
+
+msgid "delete"
+msgstr ""
+
+msgid "down"
+msgstr ""
+
+msgid "e-mail adressen"
+msgstr ""
+
+msgid "e-mail link"
+msgstr ""
+
+msgid "e-mailadres"
+msgstr ""
+
+msgid "edit"
+msgstr ""
+
+msgid "editie / datum"
+msgstr ""
+
+msgid "externe link"
+msgstr ""
+
+msgid "footer"
+msgstr ""
+
+msgid "footer_text"
+msgstr ""
+
+msgid "formaat"
+msgstr ""
+
+msgid "geadresseerden"
+msgstr ""
+
+#, php-format
+msgid "geen titel"
+msgstr ""
+
+msgid "groepen"
+msgstr ""
+
+msgid "header"
+msgstr ""
+
+msgid "header_text"
+msgstr ""
+
+msgid "hervat"
+msgstr ""
+
+msgid "hier"
+msgstr ""
+
+msgid "image"
+msgstr ""
+
+msgid "italic"
+msgstr ""
+
+msgid "item"
+msgstr ""
+
+msgid "item_text"
+msgstr ""
+
+msgid "link"
+msgstr ""
+
+msgid "log uit"
+msgstr ""
+
+#, php-format
+msgid "maximale afmetingen: %s pixels bij %s pixels"
+msgstr ""
+
+msgid "meer..."
+msgstr ""
+
+msgid "naam"
+msgstr ""
+
+msgid "naam afzender"
+msgstr ""
+
+msgid "niet in groep"
+msgstr ""
+
+msgid "nieuw item"
+msgstr ""
+
+msgid "nieuwe aanmeldingen"
+msgstr ""
+
+msgid "nieuwe groep..."
+msgstr ""
+
+msgid "nieuwe nieuwsbrief..."
+msgstr ""
+
+msgid "nieuwe template"
+msgstr ""
+
+msgid "nieuwe template..."
+msgstr ""
+
+msgid "nieuwsbrief"
+msgstr ""
+
+msgid "nieuwsbrieven verzonden"
+msgstr ""
+
+msgid "nog te verwerken"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "onderwerp"
+msgstr ""
+
+msgid "opmaak"
+msgstr ""
+
+msgid "optioneel"
+msgstr ""
+
+msgid "page out of reach"
+msgstr ""
+
+msgid "search error"
+msgstr ""
+
+msgid "selectie verwijderen"
+msgstr ""
+
+msgid "site beheer"
+msgstr ""
+
+msgid "stop"
+msgstr ""
+
+msgid "stuur test versie naar jezelf"
+msgstr ""
+
+msgid "tekst"
+msgstr ""
+
+msgid "template verwijderen"
+msgstr ""
+
+msgid "terug"
+msgstr ""
+
+msgid "titel"
+msgstr ""
+
+msgid "titel nieuwsbrief"
+msgstr ""
+
+msgid "up"
+msgstr ""
+
+msgid "verder"
+msgstr ""
+
+msgid "verstuur"
+msgstr ""
+
+msgid "verwijder adressen in groep"
+msgstr ""
+
+msgid "verzenden"
+msgstr ""
+
+msgid "voeg toe"
+msgstr ""
+
+msgid "wijzig"
+msgstr ""
+
+msgid "zoek"
+msgstr ""

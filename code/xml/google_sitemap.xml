@@ -1,0 +1,27 @@
+<?PHP
+/**
+ * Project:			yourportfolio
+ *
+ * @link http://www.yourportfolio.nl
+ * @copyright 2007 Furthermore
+ * @author Joeri van Oostveen <joeri@furthermore.nl>
+ */
+
+/**
+ * XML file for Google Sitemaps
+ *
+ * @package yourportfolio
+ * @subpackage XML
+ */
+?>
+<<?='?'?>xml version='1.0' encoding='UTF-8'<?='?'?>>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.google.com/schemas/sitemap/0.84/sitemap.xsd">
+<? foreach ($sitemap_albums as $album) : /* loop over albums */ ?>
+<url>
+	<loc><?=htmlentities('http://'.DOMAIN.'/'.$album->getLink().'/')?></loc>
+	<lastmod><?=$album->modified?></lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<? endforeach; /* end loop over albums */ ?>
+</urlset>

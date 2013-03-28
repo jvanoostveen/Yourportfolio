@@ -1,0 +1,318 @@
+/*
+	MOBILE
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body, body > * {
+	background-color: #000;
+	color: #ddd;
+	font-family: Helvetica, Arial;
+}
+h1, h2 {
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	margin: 10px 15px 5px 15px;
+}
+a {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+p {
+	margin: 15px 15px 5px 15px;
+}
+
+/* Toolbar */
+#header {
+	-webkit-box-sizing: border-box;
+	margin: 0 15px 0 15px;
+	padding: 10px 0 0 0;
+	position: relative;
+	height: 40px;
+}
+
+#header + p {
+	margin: 5px;
+}
+
+#header > h1 {
+	position: absolute;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	top: 10px;
+	left: 90px;
+	margin: 1px 0 0 0;
+	width: 220px;
+	font-size: 20px;
+	white-space: nowrap;
+}
+
+.back {
+	position: absolute;
+	top: 13px;
+	left: 10px;
+}
+.back.active {
+    color: #aaa;
+}
+
+/* Slideshow */
+.slideshow a {
+	width: 54px;
+	height: 54px;
+	position: absolute;
+	top: 130px;
+}
+.slideshow a.left {
+	background-image: url(img/slideshow_left.png);
+	left: 50px;
+}
+.slideshow a.right {
+	background-image: url(img/slideshow_right.png);
+	right: 50px;
+}
+
+h1 + ul, h2 + ul, h3 + ul, h4 + ul, h5 + ul, h6 + ul {
+    margin-top: 0;
+}
+ul {
+	color: #aaa;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 0;
+	margin: 5px 5px 5px 5px;
+}
+
+ul li {
+    color: #666;
+    border-top: 1px solid #333;
+    border-bottom: #535353;
+    list-style-type: none;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+/* universal links on list */
+ul li a, li.img a + a {
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    padding: 12px 10px 12px 10px;
+    margin: -10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-shadow: rgba(0,0,0,.2) 0 1px 1px;
+}
+ul li a.active, ul li a:hover {
+    color: #999;
+}
+ul li a.active.loading {
+	background-image: url(./img/loading.gif);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+/* @group yourportfolio */
+ul.mainmenu li, ul.submenu li, ul.thumbmenu li {
+	margin: 0 0 5px 0;
+	font-size: 17px;
+}
+ul.thumbmenu li {
+	padding: 0;
+	height: 56px;
+}
+ul.thumbmenu li a {
+	padding: 0;
+	margin: 0;
+	height: 56px;
+	line-height: 56px;
+}
+ul.thumbmenu li a img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+ul.mainmenu li a, ul.submenu li a {
+	line-height: 16px;
+	margin: 0;
+	padding: 8px 0;
+}
+ul.mainmenu li a.active {
+    color: #000;
+}
+
+ul.submenu li {
+	background-color: #858585;
+}
+ul.submenu li a {
+	color: #ffffff;
+	font-weight: normal;
+}
+
+/*
+ul.mainmenu li.arrow {
+	background-image: url(img/chevron.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+*/
+/* @end */
+
+ul.metadata li {
+	color: #ffffff;
+	line-height: 24px;
+	font-weight: normal;
+	font-size: 18px;
+}
+ul.metadata li span.label {
+	font-size: 16px;
+	color: #dedede;
+	margin: 0 6px 0 0;
+}
+
+ul.news li {
+	font-size: 17px;
+}
+ul.news li a {
+	line-height: 16px;
+	margin: 0;
+	padding: 8px 0;
+}
+
+#imagegallery div {
+	width:100%;
+	height:212px;
+	display: block;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+body.landscape #imagegallery div {
+	width:100%;
+}
+
+
+/* Image gallery */
+.gallery_thumbs {
+	padding: 0px 6px 7px 15px;
+}
+.gallery_thumbs a {
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 4px 4px 0;
+	background-color: #999;
+	font-size: 9px;
+	float: left;
+}
+
+.gallery_holder {
+/* 	vertical-align: middle; */
+	text-align: center;
+/* 	display:table-cell; */
+
+	position: relative;
+	padding: 0;
+}
+.gallery_holder .navigation .left, .gallery_holder .navigation .right {
+	width: 120px;
+	margin: 2px 0 0 0;
+}
+.gallery_holder .navigation .left {
+	float: left;
+	text-align: left;
+}
+.gallery_holder .navigation .right {
+	float: right;
+	text-align: right;
+}
+.gallery_holder .navigation {
+	width: auto;
+	text-align: center;
+/* 	border: 1px solid white; */
+}
+.gallery_holder .navigation img {
+	margin: 0 3px;
+}
+.gallery_holder a.prev, .gallery_holder a.next, .gallery_holder a.up {
+	text-indent: -9999px;
+	margin: 0px 2px;
+/*
+	width: 30px;
+	height: 30px;
+*/
+}
+@media (orientation: landscape) {
+	#header > h1 {
+		width: 370px;
+	}
+	.gallery_holder {
+		width: 480px;
+		height: 260px;
+	}
+	p.overlay {
+/* 		font-size: 60%; */
+	}
+	.gallery_holder img {
+		max-height: 220px;
+		max-width: 380px;
+	}
+}
+@media (orientation: portrait) {
+	.gallery_holder {
+		width: 320px;
+		height: 400px;
+	}
+/*
+	.gallery_holder img {
+		max-width: 320px;
+	}
+*/
+	#footer a {
+		font-size: 140%;
+	}
+}
+
+
+/* Contact */
+.contact ul, .contact ul li {
+	border: none;
+}
+.contact ul li {
+	padding: 0px;
+	margin: 5px 0px 8px 0px;
+}
+
+ul li input, ul li textarea, ul li select {
+	color: #fff;
+	background: #333;
+	font-size: 18px;
+	border: 0;
+	padding: 5px;
+	display: inline-block;
+	margin-left: 0px;
+	width: 100%;
+	-webkit-appearance: textarea;
+	height: 30px;
+}
+ul li textarea {
+	height: 100px;
+	width: 98%;
+}
+
+div.image_holder {
+	background-position: center top;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+/* Custom Animations */
+.slideback.in			{ -webkit-animation-name: slideinfromleft; }
+.slideback.out			{ -webkit-animation-name: slideouttoright; }
+.slideback.in.reverse	{ -webkit-animation-name: slideouttoright; }
+.slideback.out.reverse	{ -webkit-animation-name: slideinfromleft; }

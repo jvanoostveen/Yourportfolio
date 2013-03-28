@@ -1,0 +1,5 @@
+user-agent: *
+allow: /
+disallow: /data/
+disallow: *.xml
+disallow: *.swf

@@ -1,0 +1,230 @@
+body
+{
+	height: 8.5in;	/* Required for percentage heights below */
+	background-color: #C3C3C3;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+#results {
+	overflow: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+}
+
+img.special
+{
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+#menu
+{
+	position: fixed;
+	width: 200px;
+	height: auto;
+	top: 12px;
+	right: 182px;
+	bottom: auto;
+	left: 12px;
+}
+
+#menu_holder
+{
+	max-height: 1000px;
+	overflow: auto;
+}
+
+#statistics
+{
+	position: fixed;
+	width: 176px;
+	height: auto;
+	top: auto;
+	right: 158px;
+	bottom: 12px;
+	left: 12px;
+}
+
+DIV#canvas_top
+{
+	position: fixed;
+	width: auto;
+	height: 28px;
+	top: 12px;
+	right: 12px;
+	bottom: 40px;
+	left: 212px;
+}
+
+DIV#canvas_div
+{
+	background-color: white;
+	position: fixed;
+	width: auto;
+	height: auto;
+	top: 40px;
+	right: 12px;
+	bottom: 40px;
+	left: 212px;
+	text-align: left;
+	border-color: #000000;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	overflow: auto;
+	padding: 0px 10px 10px 10px;
+}
+
+DIV#canvas_div_nl
+{
+	background-color: white;
+	position: fixed;
+	width: auto;
+	height: auto;
+	top: 40px;
+	right: 12px;
+	bottom: 40px;
+	left: 212px;
+	text-align: left;
+	border-color: #000000;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	overflow: auto;
+	padding: 0;
+}
+
+DIV#canvas_div_nl_addresses
+{
+	background-color: white;
+	position: fixed;
+	width: auto;
+	height: auto;
+	top: 40px;
+	right: 12px;
+	bottom: 87px;
+	left: 212px;
+	text-align: left;
+	border-color: #000000;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	overflow: auto;
+	padding: 0;
+}
+
+DIV#canvas_bottom
+{
+	position: fixed;
+	width: auto;
+	height: 28px;
+	top: auto;
+	right: 12px;
+	bottom: 12px;
+	left: 212px;
+}
+
+DIV#canvas_bottom_high
+{
+	position: fixed;
+	width: auto;
+	height: 75px;
+	top: auto;
+	right: 12px;
+	bottom: 12px;
+	left: 212px;
+}
+
+td
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.namebar
+{
+	font-size: 12px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: normal;
+	height: 28px;
+}
+
+.verticalline
+{
+	width: 1px;
+	background-color: #000000;
+}
+
+.horizontalline
+{
+	height: 1px;
+	background-color: #000000;
+}
+
+.dotline
+{
+	height: 1px;
+	width: 1px;
+	background-color: #000000;
+}
+
+.canvas
+{
+	background-color: #FFFFFF;
+}
+
+.statistics
+{
+	font-size: 10px;
+}
+
+a.menu, a.menu:link, a.menu:active, a.menu:visited
+{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+a.menu:hover
+{
+	text-decoration: underline;
+}
+
+a.normal, a.normal:link, a.normal:active, a.normal:visited
+{
+	color: #000000;
+	font-size: 10px;
+	text-decoration: none;
+}
+a.normal:hover
+{
+	text-decoration: underline;
+}
+
+a.upload, a.upload:link, a.upload:active, a.upload:visited
+{
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+a.upload:hover
+{
+	text-decoration: underline;
+}
+
+.save, a.save, a.save:link, a.save:active, a.save:visited, a.save:hover
+{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+img.float
+{
+	float: right;
+}
