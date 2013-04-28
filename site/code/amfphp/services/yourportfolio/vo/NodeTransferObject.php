@@ -132,7 +132,7 @@ class NodeTransferObject
 						  WHERE `album_id`='".$this->id."' AND `online`='Y' ORDER BY IF(`position` > 0, `position`, 999) ASC, id ASC";
 				break;
 			case self::SECTION:
-				$query = "SELECT `id`, `position`, `type`, `name` AS `title`, `text`, `link`, `label_type`, `custom_data` AS `fields`, '".self::ITEM."' AS `nodeType`
+				$query = "SELECT `id`, `position`, `type`, `name` AS `title`, `text`, `link`, `label_type` AS `type`, `custom_data` AS `fields`, '".self::ITEM."' AS `nodeType`
 						  FROM `".$db->_table['items']."` 
 						  WHERE section_id='".$this->id."' AND online='Y' AND type!='error' ORDER BY IF(position > 0, position, 999) ASC, id ASC";
 				break;
