@@ -92,7 +92,7 @@ function is_error_bounce( $headers, $body )
 {
 	$test1 = ( isset($headers['Return-Path']) && $headers['Return-Path'] == '<>' );
 	$test3 = ( isset($headers['Return-Path']) && preg_match("/MAILER-DAEMON@web\d\.roosit\.nl/", $headers['Return-Path']) == 1);
-	$test4 = ( isset($headers['Return-Path']) && preg_match("/MAILER-DAEMON@mail\d+\.roosit\.nl/", $headers['Return-Path']) == 1);
+	$test4 = ( isset($headers['Return-Path']) && preg_match("/MAILER-DAEMON@mail\d+\.roosit\.eu/", $headers['Return-Path']) == 1);
 	
 	$test2 = ( isset($headers['Return-path']) && $headers['Return-path'] == '<>' );
 	
