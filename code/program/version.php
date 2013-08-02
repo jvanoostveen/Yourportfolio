@@ -14,5 +14,5 @@
  * @subpackage Update
  */
 
-define('CORE_VERSION', '2.10.4');
-define('USER_VERSION', '2.10.4');
+define('CORE_VERSION', '2.10.5');
+define('USER_VERSION', '2.10.5');

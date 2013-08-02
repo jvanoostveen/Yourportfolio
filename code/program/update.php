@@ -251,6 +251,7 @@ switch($version['core_version'])
 	case('2.10.2.3'):
 	case('2.10.3'):
 	case('2.10.4'):
+	case('2.10.5'):
 	default:
 		$sql[] = "UPDATE `".$this->_table['data']."` SET `core_version`='".$update_core_to."'";
 		break;
@@ -1028,6 +1029,7 @@ switch($version['user_version'])
  	case('2.10.2.3'):
  	case('2.10.3'):
  	case('2.10.4'):
+ 	case('2.10.5'):
 	default:
 		$sql[] = "UPDATE `".$this->_table['data']."` SET `user_version`='".$update_user_to."' WHERE `photographer_id`='".$this->user_id."'";
 		break;
