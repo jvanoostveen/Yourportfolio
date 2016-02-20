@@ -15,6 +15,8 @@ bindtextdomain('newsletter', LOCALE);
 
 // current domain
 textdomain('newsletter');
+
+header('Content-Type: application/javascript');
 ?>
 var error_mark = '-';
 var do_mail_check = true;

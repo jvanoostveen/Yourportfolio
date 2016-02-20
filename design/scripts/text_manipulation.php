@@ -16,6 +16,7 @@ bindtextdomain('newsletter', LOCALE);
 // current domain
 textdomain('backend');
 
+header('Content-Type: application/javascript');
 ?>
 <!-- 
 var createLinkId = null;

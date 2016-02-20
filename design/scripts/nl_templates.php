@@ -16,6 +16,7 @@ bindtextdomain('newsletter', LOCALE);
 // current domain
 textdomain('newsletter');
 
+header('Content-Type: application/javascript');
 ?>
 function init()
 {

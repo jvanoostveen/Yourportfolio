@@ -16,6 +16,7 @@ bindtextdomain('newsletter', LOCALE);
 // current domain
 textdomain('newsletter');
 
+header('Content-Type: application/javascript');
 ?>
 var active_view;
 var fade_duration = 0.4;
