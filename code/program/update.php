@@ -1030,6 +1030,7 @@ switch($version['user_version'])
  	case('2.10.3'):
  	case('2.10.4'):
  	case('2.10.5'):
+ 	case('2.10.6'):
 	default:
 		$sql[] = "UPDATE `".$this->_table['data']."` SET `user_version`='".$update_user_to."' WHERE `photographer_id`='".$this->user_id."'";
 		break;
